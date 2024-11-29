@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        img {
+            height: 200px;
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="ganti-warna">Judul Halaman</h1>
+    <img src="css/img/main-char.png" alt="">
+    <button id="tombol-asli">Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+    <button>Bintang</button>
+
+    <script>
+        const tombolAsli = document.getElementById('tombol-asli');
+        const gantiWarna = document.getElementById('ganti-warna');
+
+        tombolAsli.onclick = function () {
+            gantiWarna.innerText = "Punya Bintang";
+        }
+    </script>
+</body>
+</html>
