@@ -358,11 +358,11 @@
 
         .rules {
             position: absolute;
-            bottom: 2rem;
-            left: 2rem;
-            width: 6rem;
-            height: 6rem;
-            font-size: 5rem;
+            top: -10.5%;
+            right: 2%;
+            width: 3rem;
+            height: 3rem;
+            font-size: 2.2rem;
             background-color: var(--c1);
             text-align: center;
             border-radius: 10px;
@@ -376,8 +376,8 @@
             visibility: hidden;
             /* display: none; */
             /* position:; */
-            bottom: 11rem;
-            left: 1rem;
+            top: 30%;
+            left: -1000%;
             width: 32rem;
             height: 10rem;
             font-size: 1rem;
@@ -889,6 +889,57 @@
             text-decoration: underline;
             text-underline-offset: 20%;
             cursor: pointer;
+        }
+
+        
+        @media (max-width: 1281px){
+            .container .main-map {
+            position: relative;
+            top: 1.8rem;
+            left: -6.5rem;
+            width: 117%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            z-index: 3;
+        }
+
+        .container .main-map .banten {
+            position: absolute;
+            top: 17rem;
+            left: 23rem;
+            cursor: pointer;
+            z-index: 999;
+
+            
+        }
+
+        .container .main-map .sumut {
+            position: absolute;
+            top: 1.4rem;
+            left: 10.6rem;
+        }
+        .container .main-map .kalteng {
+            position: absolute;
+            top: 9.7rem;
+            left: 37rem;
+        }
+        .container .main-map .sulteng {
+            position: absolute;
+            top: 9rem;
+            left: 48.1rem;
+        }
+        .container .main-map .papua {
+            position: absolute;
+            top: 14rem;
+            right: 8rem;
+        }
+        .container .main-map .jateng {
+            position: absolute;
+            top: 19rem;
+            left: 29    rem;
+        }
+
         }
         
     </style>
